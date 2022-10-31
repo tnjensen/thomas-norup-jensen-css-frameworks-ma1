@@ -1,0 +1,22 @@
+footer{
+    flex-shrink: 0;
+    color: var(--color-footer);
+    background: var(--color-footer-bg);
+}
+footer .container{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+footer div{
+    padding: .3rem 0; 
+}
+@media (min-width:768px){
+    footer{
+        background: var(--color-square);
+    }
+    footer .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

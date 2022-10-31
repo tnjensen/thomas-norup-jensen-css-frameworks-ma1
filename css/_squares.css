@@ -1,0 +1,19 @@
+.squares{
+    margin-bottom: 8rem;
+}
+.square{
+    width: 250px;
+    height: 250px;
+    background: var(--color-square);
+    border: none;
+    border-radius: 10px;
+    margin: 1rem .5rem;
+}
+.square.fill{
+    border: 2px solid white;
+    background: var(--color-square-bg);
+}
+.square.border{
+    border: 2px solid var(--color-square-bg) !important;
+    background: white;
+}
