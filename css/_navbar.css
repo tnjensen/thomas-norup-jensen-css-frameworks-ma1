@@ -16,3 +16,6 @@
 .bg-light{
     background: var(--color-square) !important;
 }
+.active a{
+    color: var(--color-square-bg) !important;
+}
