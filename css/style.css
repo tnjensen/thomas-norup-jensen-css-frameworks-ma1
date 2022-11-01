@@ -40,9 +40,12 @@ body {
     flex-wrap: wrap;
   }
 }
-.nav {
+.nav-header {
   font-family: "Archivo Narrow", sans-serif;
   color: #262626;
+}
+.nav-header__link#nav-header__link--link {
+  color: #c32c72;
 }
 
 #logo {
@@ -59,19 +62,13 @@ body {
 }
 
 .navbar-toggler {
-  border: none;
   color: #463F3A;
-}
-
-#active-link {
-  color: #c32c72;
 }
 
 .squares {
   margin-bottom: 8rem;
 }
-
-.square {
+.squares__item {
   width: 250px;
   height: 250px;
   background: #f4f3ee;
@@ -79,15 +76,13 @@ body {
   border-radius: 10px;
   margin: 1rem 0.5rem;
 }
-
-.square.fill {
-  border: 2px solid white;
-  background: #c32c72;
-}
-
-.square.border {
+.squares__item--border {
   border: 2px solid #c32c72;
   background: white;
+}
+.squares__item--fill {
+  border: 2px solid white;
+  background: #c32c72;
 }
 
 .container h1 {

@@ -1,6 +1,10 @@
-.nav{
+.nav-header{
     font-family: 'Archivo Narrow', sans-serif;
     color: $color-nav;
+
+    &__link#nav-header__link--link{
+        color: $color-square-bg;
+    }
 }
 #logo{
     color: $color-nav;
@@ -13,9 +17,5 @@
     flex-direction: row;
 }
 .navbar-toggler{
-    border: none;
     color: $color-border-btn-primary;
-}
-#active-link{
-    color: $color-square-bg;
 }
