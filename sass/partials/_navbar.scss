@@ -2,20 +2,20 @@
     font-family: 'Archivo Narrow', sans-serif;
     color: $color-nav;
 }
+#logo{
+    color: $color-nav;
+}
 .navbar{
-    background: $color-square !important;
+    background: $color-square;
 }
 .navbar .container{
     display: flex;
     flex-direction: row;
 }
-.navbar-brand{
-    color: $color-nav !important;
-}
 .navbar-toggler{
     border: none;
     color: $color-border-btn-primary;
 }
-.active a{
-    color: $color-square-bg !important;
+#active-link{
+    color: $color-square-bg;
 }

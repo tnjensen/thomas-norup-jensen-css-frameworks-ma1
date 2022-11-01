@@ -11,9 +11,12 @@ body {
 
 body {
   font-family: "Open Sans", sans-serif;
-  background: #e5e5e5 !important;
   display: flex;
   flex-direction: column;
+}
+
+.body {
+  background: #e5e5e5;
 }
 
 .wrapper {
@@ -42,8 +45,12 @@ body {
   color: #262626;
 }
 
+#logo {
+  color: #262626;
+}
+
 .navbar {
-  background: #f4f3ee !important;
+  background: #f4f3ee;
 }
 
 .navbar .container {
@@ -51,17 +58,13 @@ body {
   flex-direction: row;
 }
 
-.navbar-brand {
-  color: #262626 !important;
-}
-
 .navbar-toggler {
   border: none;
   color: #463F3A;
 }
 
-.active a {
-  color: #c32c72 !important;
+#active-link {
+  color: #c32c72;
 }
 
 .squares {
@@ -94,8 +97,11 @@ body {
 
 footer {
   flex-shrink: 0;
+}
+
+.footer {
   color: #8d8d8d;
-  background: white !important;
+  background: white;
 }
 
 footer .container {

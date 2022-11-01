@@ -9,9 +9,11 @@ body{
 }
 body{
     font-family: "Open Sans", sans-serif;
-    background: $background-color !important;
     display: flex;
     flex-direction: column;
+}
+.body{
+    background: $background-color;
 }
 .wrapper{
     flex: 1 0 auto;
