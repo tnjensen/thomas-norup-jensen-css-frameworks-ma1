@@ -1,0 +1,21 @@
+.nav{
+    font-family: 'Archivo Narrow', sans-serif;
+    color: $color-nav;
+}
+.navbar{
+    background: $color-square !important;
+}
+.navbar .container{
+    display: flex;
+    flex-direction: row;
+}
+.navbar-brand{
+    color: $color-nav !important;
+}
+.navbar-toggler-icon{
+    border: none;
+    color: $color-border-btn-primary;
+}
+.active a{
+    color: $color-square-bg !important;
+}

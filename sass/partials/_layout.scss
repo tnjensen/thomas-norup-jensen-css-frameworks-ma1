@@ -9,7 +9,7 @@ body{
 }
 body{
     font-family: "Open Sans", sans-serif;
-    background: var(--color-background);
+    background: $background-color !important;
     display: flex;
     flex-direction: column;
 }

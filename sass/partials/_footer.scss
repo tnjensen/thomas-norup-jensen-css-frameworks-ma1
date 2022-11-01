@@ -1,7 +1,7 @@
 footer{
     flex-shrink: 0;
-    color: var(--color-footer);
-    background: var(--color-footer-bg);
+    color: $color-footer;
+    background: $color-footer-bg !important;
 }
 footer .container{
     display: flex;
@@ -13,7 +13,7 @@ footer div{
 }
 @media (min-width:768px){
     footer{
-        background: var(--color-square);
+        background: $color-square !important;
     }
     footer .container{
         flex-direction: row;
