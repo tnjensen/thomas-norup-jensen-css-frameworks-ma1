@@ -90,22 +90,17 @@ body {
   color: #463F3A;
 }
 
-footer {
-  flex-shrink: 0;
-}
-
 .footer {
+  flex-shrink: 0;
   color: #8d8d8d;
   background: white;
 }
-
-footer .container {
+.footer__inner {
   display: flex;
   flex-direction: column;
   padding: 1rem 0;
 }
-
-footer div {
+.footer__item {
   padding: 0.3rem 0;
 }
 

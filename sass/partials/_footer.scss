@@ -1,23 +1,23 @@
-footer{
-    flex-shrink: 0;
-}
 .footer{
+    flex-shrink: 0;
     color: $color-footer;
     background: $color-footer-bg;
-}
-footer .container{
-    display: flex;
-    flex-direction: column;
-    padding: 1rem 0;
-}
-footer div{
-    padding: .3rem 0; 
+
+    &__inner{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 0;
+    }
+
+    &__item{
+        padding: .3rem 0; 
+    }
 }
 @media (min-width:768px){
     footer{
-        background: $color-square !important;
+        background: $color-square;
     }
-    footer .container{
+    &__inner{
         flex-direction: row;
         justify-content: space-between;
     }
